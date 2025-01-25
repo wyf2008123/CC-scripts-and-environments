@@ -1,0 +1,18 @@
+apt update;
+chmod 777 *;
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -;
+sudo apt-get install -y nodejs;
+sudo apt install -y xvfb;
+sudo apt install -y unzip;
+sudo apt install -y wget;
+wget https://dl.google.com/linux/deb/pool/main/g/google-chrome-stable/google-chrome-stable_120.0.6099.129-1_amd64.deb;
+sudo dpkg -i google-chrome-stable_120.0.6099.129-1_amd64.deb;
+wget https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/120.0.6099.109/linux64/chromedriver-linux64.zip;
+unzip chromedriver-linux64.zip;
+npm install puppeteer puppeteer-real-browser colors user-agents header-generator axios hpack;
+npx puppeteer browsers install chrome;
+chmod 777 *;
+sudo apt-get install xvfb;
+apt --fix-broken install -y;
+sudo apt-get install xvfb;
+npm i string-random request random-referer;
