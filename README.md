@@ -2,9 +2,13 @@
 环境准备：
 
 安装操作系统 Ubuntu 22
+
 apt install update - 更新源
+
 apt install curl - 安装curl
+
 chmod 777 * - 给当前目录脚本可执行权限
+
 sh install.sh - 运行安装脚本环境的shell文件
 
 ATTACK脚本介绍和执行命令：
